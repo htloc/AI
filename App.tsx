@@ -52,7 +52,13 @@ const frameProcessor = useFrameProcessor((frame) => {
 
   const input = new Uint8Array(data)
   const outputs = model?.runSync([input])
-  console.log(outputs?.toString())
+  if (outputs) {
+    
+    const isHotDogProb = data[935];
+    const isHotDog = isHotDogProb > 0.2 ? "HotDog" : "Not HotDog";
+    const output = isHotDog;
+    console.log(output)
+  }
   
   //const bananas = objects.filter((o) => o.type === targetObject)
   //console.log(`Detected ${bananas} bananas!`)
