@@ -1,0 +1,47 @@
+description: Ultralytics best model trained on F:\Working\AI_Competition\PythonRepo\ai-models\dataset_3\data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-03-01T08:30:24.787353'
+version: 8.1.17
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: R302a
+  1: R409
+  2: p102
+  3: p103a
+  4: p103b
+  5: p103c
+  6: p104
+  7: p112
+  8: p123a
+  9: p123b
+  10: p124a
+  11: p124b
+  12: p125
+  13: p127_20
+  14: p127_30
+  15: p127_40
+  16: p127_50
+  17: p127_60
+  18: p127_70
+  19: p127_80
+  20: p127_90
+  21: p130
+  22: p131a
+  23: w201a
+  24: w201b
+  25: w203a
+  26: w203b
+  27: w203c
+  28: w205a
+  29: w207a
+  30: w207b
+  31: w207c
+  32: w209
+  33: w224
+  34: w225
